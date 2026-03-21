@@ -1,0 +1,12 @@
+{
+  "name": "termux-ad-bot",
+  "version": "1.0.0",
+  "description": "Humanoid Ad-Clicking Bot for GooIndia & Visio-Nexus",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "playwright": "^1.44.0"
+  }
+}
