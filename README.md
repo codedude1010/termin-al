@@ -13,38 +13,44 @@
 
 ---
 
-## 📱 Termux (Android) Installation
+## 📱 Termux (Android) Quick Start
 
-1. **Install Termux** from F-Droid.
-2. **Setup environment**:
-   ```bash
-   pkg update && pkg upgrade -y
-   pkg install nodejs-lts git -y
-   
-   # Clone project
-   git clone https://github.com/schoolofengineeringmysore/termux.git
-   cd termux
-   npm install
-   
-   # Run
-   node bot.js
-   ```
+Copy and paste these commands one by one or all at once:
+
+**1. Setup Environment & Clone**
+```bash
+pkg update && pkg upgrade -y
+pkg install nodejs-lts git -y
+git clone https://github.com/schoolofengineeringmysore/termux.git
+cd termux
+```
+
+**2. Install & Run**
+```bash
+npm install
+node bot.js
+```
 
 ---
 
-## 💻 Desktop Installation
+## 💻 Desktop (Windows/Mac/Linux) Quick Start
 
-1. **Install Node.js** (v18+).
-2. **Clone and install**:
-   ```bash
-   git clone https://github.com/schoolofengineeringmysore/termux.git
-   cd termux
-   npm install
-   npx playwright install firefox
-   
-   # Run
-   node bot.js
-   ```
+**1. Clone Project**
+```bash
+git clone https://github.com/schoolofengineeringmysore/termux.git
+cd termux
+```
+
+**2. Install Dependencies**
+```bash
+npm install
+npx playwright install firefox
+```
+
+**3. Run Bot**
+```bash
+node bot.js
+```
 
 ---
 
