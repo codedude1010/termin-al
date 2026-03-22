@@ -1,6 +1,9 @@
 name: Humanoid Ad-Bot
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: '30 2 * * *' # Once a day at 2:30 AM
   workflow_dispatch:
